@@ -1,5 +1,5 @@
 ### 多仓（注意：原始tvbox不适用）
 
 ```
-https://play.iptv365.org/tvbox.txt
+本地包备份之一，以防万一
 ```
