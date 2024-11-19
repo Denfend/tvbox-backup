@@ -14,5 +14,5 @@ jobs:
       - uses: tgymnich/fork-sync@v2.0.10
         with:
           owner: kimwang1978
-          base: main
+          base: tvbox
           head: main
