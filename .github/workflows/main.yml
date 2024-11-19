@@ -1,5 +1,4 @@
 name: Sync Fork
-
 on:
   schedule:
     - cron: '* * */1 * *' # every 1 day
@@ -7,10 +6,13 @@ on:
 
 jobs:
   sync:
-
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          repository: kimwang1978/tvbox
+          ref: main
       - uses: tgymnich/fork-sync@v2.0.10
         with:
           owner: kimwang1978
