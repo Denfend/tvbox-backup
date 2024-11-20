@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '* * */1 * *' # every 1 day
+    - cron: '0 0 * * *' # every 1 day
   workflow_dispatch: # on button click
 
 jobs:
