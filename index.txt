@@ -26,6 +26,8 @@
 
 { "url": "clan://localhost/？？？/OK/api.json", "name": "OK" },
 
+{  "url": "clan://localhost/？？？/天微/api.json", "name": "天微" },
+
 { "url": "clan://localhost/？？？/戏曲音乐/api.json", "name": "戏曲音乐" },
 
 { "url": "clan://localhost/？？？/短剧频道/api.json", "name": "短剧频道" },
