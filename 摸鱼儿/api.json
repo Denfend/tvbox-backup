@@ -23,17 +23,6 @@
             "api": "csp_Huban"
         },
         {
-            "key": "懒羊羊弹幕",
-            "name": "🐏羊村┃弹幕┃设置",
-            "type": 3,
-            "api": "csp_ConfigCenter",
-            "jar": "./jars/懒羊羊弹幕.jar",
-            "searchable": 0,
-            "filterable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "update",
             "name": "🎬️摸鱼┃电影┃预告",
             "type": 3,
@@ -71,6 +60,21 @@
             }
         },
         {
+            "key": "MyDrive",
+            "name": "♨️玩偶智能┃云盘配置",
+            "type": 3,
+            "api": "csp_MyDriveGuard",
+            "changeable": 0,
+            "indexs": 0,
+            "searchable": 1,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt"
+            }
+        },
+        {
             "key": "醉挽清风",
             "name": "♨️醉挽清风┃4K纯净",
             "type": 4,
@@ -78,22 +82,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
-        },
-        {
-            "key": "鲸鱼",
-            "name": "♨️鲸鱼资源┃4K弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "",
-                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "dataKey": "AAdgrdghjfgswerA",
-                "dataIv": "AAdgrdghjfgswerA",
-                "deviceId": "",
-                "version": ""
-            }
         },
         {
             "key": "seed",
@@ -114,7 +102,7 @@
             "name": "♨️玩偶备用┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -125,7 +113,7 @@
             "name": "🍁优汐木偶┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -136,7 +124,7 @@
             "name": "🐂小二资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
@@ -148,7 +136,7 @@
             "name": "🖍︎蜡笔资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
@@ -160,7 +148,7 @@
             "name": "🏆️夸克至臻┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
@@ -172,7 +160,7 @@
             "name": "🍡多多网盘┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
@@ -184,7 +172,7 @@
             "name": "✊️团长网盘┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebTz",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
@@ -194,7 +182,7 @@
             "name": "🐋天翼雷鲸┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudLJ",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -209,7 +197,7 @@
             "name": "🧽海绵资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudHM",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -225,7 +213,7 @@
             "name": "📅数字资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloud123",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -241,7 +229,7 @@
             "name": "🥳百度趣盘┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebQu",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -258,7 +246,7 @@
             "name": "🐼盘库资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebKuBa",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -272,7 +260,7 @@
             "name": "🏃夸父资源┃4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudKF",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -284,12 +272,50 @@
             "ext": "./json/kf.json"
         },
         {
+            "key": "金牌",
+            "name": "🏅金牌┃超清┃无广",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "jar": "./jars/玩偶哥哥.jar",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+                "name": "金牌影院（请断网再安装）"
+            }
+        },
+        {
+            "key": "瓜子影视",
+            "name": "🍉瓜子┃超清┃无广",
+            "type": 3,
+            "api": "csp_Gz360",
+            "jar": "./jars/玩偶哥哥.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "秒看",
+            "name": "⏱️秒看┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/玩偶哥哥.jar",
+            "ext": {
+                "site": "https://mk1080.top/get.txt",
+                "dataKey": "c60d88b2eep53za8",
+                "dataIv": "c60d88b2eep53za8",
+                "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "咖啡",
-            "name": "🌀咖啡┃超清┃弹幕",
+            "name": "☕️咖啡┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "",
                 "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
@@ -301,29 +327,12 @@
             }
         },
         {
-            "key": "哔滴",
-            "name": "🌀比迪┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "",
-                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-                "dataKey": "5ae8ee4bb95ea0ce",
-                "dataIv": "5ae8ee4bb95ea0ce",
-                "deviceId": "",
-                "version": "120",
-                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-            }
-        },
-        {
             "key": "蓝鹰",
-            "name": "🌀蓝鹰┃超清┃弹幕",
+            "name": "🦅蓝鹰┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "",
                 "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
@@ -334,27 +343,25 @@
             }
         },
         {
-            "key": "蓝鹰",
-            "name": "🌀蓝鹰┃超清┃弹幕",
+            "key": "开心",
+            "name": "😄开心┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
-            "jar": "./jars/config.jar",
             "api": "csp_AppQi",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
-                "url": "",
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "deviceId": "",
-                "version": "120"
+                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/gw.txt",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
             "key": "仓鼠",
-            "name": "🌀仓鼠┃超清┃弹幕",
+            "name": "🐹仓鼠┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "api": "csp_AppQi",
             "ext": {
                 "url": "",
@@ -366,12 +373,25 @@
             }
         },
         {
-            "key": "热剧",
-            "name": "🌀热剧┃超清┃弹幕",
+            "key": "鲸鱼",
+            "name": "🐋鲸鱼┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
+            "ext": {
+                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+                "dataKey": "AAdgrdghjfgswerA",
+                "dataIv": "AAdgrdghjfgswerA"
+            }
+        },
+        {
+            "key": "热剧",
+            "name": "🍋热剧┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://www.rebovod.com",
                 "site": "",
@@ -383,29 +403,78 @@
             }
         },
         {
-            "key": "小猪",
-            "name": "🌀小猪┃超清┃弹幕",
+            "key": "影视",
+            "name": "❄️若雪┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
-                "url": "",
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+                "dataKey": "sada21321sdq231d",
+                "dataIv": "sada21321sdq231d"
+            }
+        },
+        {
+            "key": "小猪",
+            "name": "🐖小猪┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "jar": "./jars/玩偶哥哥.jar",
+            "ext": {
                 "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
                 "dataKey": "seb5tq9mykp2w9ry",
                 "dataIv": "seb5tq9mykp2w9ry",
-                "deviceId": "",
-                "version": "",
                 "ua": "okhttp/3.10.0"
             }
         },
         {
-            "key": "紫金",
-            "name": "🌀紫金┃超清┃弹幕",
+            "key": "数字",
+            "name": "🔢数字┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
+            "ext": {
+                "url": "http://app1-0-0.87333.cc",
+                "dataKey": "VwsHxkCViDXEExWa",
+                "dataIv": "VwsHxkCViDXEExWa"
+            }
+        },
+        {
+            "key": "火锅",
+            "name": "🫕火锅┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/玩偶哥哥.jar",
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e"
+            }
+        },
+        {
+            "key": "爱看",
+            "name": "😘爱看┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/玩偶哥哥.jar",
+            "ext": {
+                "url": "https://www.appdm.akandm.com",
+                "dataKey": "uI1TkPJC8B46AyN3",
+                "dataIv": "uI1TkPJC8B46AyN3"
+            }
+        },
+        {
+            "key": "紫金",
+            "name": "🫰紫金┃超清┃弹幕",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "http://www.zjcvod.com",
                 "site": "",
@@ -417,29 +486,12 @@
             }
         },
         {
-            "key": "九零",
-            "name": "🌀九零┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
-                "site": "",
-                "dataKey": "5a9w6x58dsq6z3a6",
-                "dataIv": "5a9w6x58dsq6z3a6",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "星星",
-            "name": "🌀星星┃超清┃弹幕",
+            "name": "⭐️星星┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "http://starani.qcanime.xyz",
                 "site": "",
@@ -452,11 +504,11 @@
         },
         {
             "key": "五八",
-            "name": "🌀五八┃超清┃弹幕",
+            "name": "🙃五八┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://dy.58ys.vip",
                 "site": "",
@@ -468,29 +520,12 @@
             }
         },
         {
-            "key": "狂人",
-            "name": "🌀狂人┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://www.zjkrmv.vip",
-                "site": "",
-                "dataKey": "vXeyuJFqTKqWUtWU",
-                "dataIv": "vXeyuJFqTKqWUtWU",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "驿站",
-            "name": "🌀驿站┃超清┃弹幕",
+            "name": "🕶️驿站┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "",
                 "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
@@ -502,29 +537,12 @@
             }
         },
         {
-            "key": "外剧",
-            "name": "🌀外剧┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://guowaiju.com",
-                "site": "",
-                "dataKey": "7xv16h7qgkrs9b1p",
-                "dataIv": "7xv16h7qgkrs9b1p",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "莱米",
-            "name": "🌀莱米┃超清┃弹幕",
+            "name": "🫓莱米┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "",
                 "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
@@ -535,28 +553,12 @@
             }
         },
         {
-            "key": "灵虎",
-            "name": "🌀灵虎┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "",
-                "site": "https://bind.315999.xyz/89.txt",
-                "dataKey": "#getapp@TMD@2025",
-                "dataIv": "#getapp@TMD@2025",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
             "key": "旗星",
-            "name": "🌀旗星┃超清┃弹幕",
+            "name": "🍡旗星┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "http://ys.qist.top",
                 "site": "",
@@ -568,11 +570,11 @@
         },
         {
             "key": "丫丫",
-            "name": "🌀丫丫┃超清┃弹幕",
+            "name": "🍿丫丫┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "http://tv.yy-fun.cc",
                 "dataKey": "qkxnwkfjwpcnwycl",
@@ -583,11 +585,11 @@
         },
         {
             "key": "萝卜",
-            "name": "🌀萝卜┃超清┃弹幕",
+            "name": "🥕萝卜┃超清┃弹幕",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://apiapplbys.lbys.app:5678",
                 "dataKey": "apiapplbyskey168",
@@ -597,47 +599,9 @@
             }
         },
         {
-            "key": "米兔",
-            "name": "🌀米兔┃超清┃弹幕",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://new.tkbot.fun",
-                "dataKey": "d032c12876bc6848",
-                "dataIv": "d032c12876bc6848",
-                "deviceId": "",
-                "version": "200"
-            }
-        },
-        {
-            "key": "瓜子影视",
-            "name": "🍉瓜子┃蓝光┃无广",
-            "type": 3,
-            "api": "csp_Gz360",
-            "jar": "./jars/瓜子影视.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "金牌影视",
-            "name": "🏅金牌┃蓝光┃无广",
-            "type": 3,
-            "api": "./api/金牌影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-            }
-        },
-        {
             "key": "夕晨踏雪",
             "name": "♨️夕晨踏雪┃4K弹幕",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "type": 3,
             "api": "csp_SP360"
         },
@@ -686,6 +650,29 @@
             }
         },
         {
+            "key": "Lib",
+            "name": "🌟立播┃秒播┃纯净",
+            "type": 3,
+            "api": "csp_LibvioGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "鲸鱼",
+            "name": "👀鲸鱼┃多线┃纯净",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="
+        },
+        {
             "key": "厂长",
             "name": "📔厂长┃不卡┃纯净",
             "type": 3,
@@ -727,6 +714,16 @@
             "changeable": 1
         },
         {
+            "key": "下饭",
+            "name": "🍙下饭┃多线┃纯净",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
+        },
+        {
             "key": "糯米",
             "name": "🍓糯米┃秒播┃纯净",
             "type": 3,
@@ -745,19 +742,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "Lib",
-            "name": "🌟立播┃秒播┃纯净",
-            "type": 3,
-            "api": "csp_LibvioGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "Cloud-drive": "TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
         },
         {
             "key": "zxzj",
@@ -790,17 +774,6 @@
             "changeable": 1
         },
         {
-            "key": "萌米",
-            "name": "👀萌米┃多线┃纯净",
-            "type": 3,
-            "api": "csp_AppTTGuard",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA=="
-        },
-        {
             "key": "热播",
             "name": "📺热播┃多线┃纯净",
             "type": 3,
@@ -823,15 +796,14 @@
             "ext": "uqGL1bNENExT9fFAy5mE5qU="
         },
         {
-            "key": "Auete",
+            "key": "奥特",
             "name": "🏝奥特┃无广┃纯净",
             "type": 3,
             "api": "csp_AueteGuard",
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://auete.com/"
+            "changeable": 1
         },
         {
             "key": "新6V",
@@ -855,17 +827,16 @@
             }
         },
         {
-            "key": "88js",
+            "key": "88",
             "name": "⚽ 88┃看球┃直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
+            "api": "csp_Sir88Guard",
+            "timeout": 15,
+            "searchable": 0,
+            "changeable": 0,
             "style": {
                 "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
+            }
         },
         {
             "key": "看球",
@@ -892,8 +863,21 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed490195f7bf50ac60b9"
+                "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
             }
+        },
+        {
+            "key": "有声小说",
+            "name": "📻有声┃小说┃娱乐",
+            "type": 3,
+            "api": "csp_Tingshu275Guard",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "虎牙直播js",
@@ -1162,7 +1146,7 @@
             "name": "🫠漫国┃动漫┃蓝光",
             "type": 3,
             "api": "csp_AppSy",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
                 "siteKey": "rectangleadsadxa",
@@ -1176,7 +1160,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "http://www.drdm.fun",
                 "site": "",
@@ -1188,29 +1172,12 @@
             }
         },
         {
-            "key": "漫屋",
-            "name": "🛖漫屋┃动漫┃蓝光",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
-            "ext": {
-                "url": "https://www.yunwuee.icu",
-                "site": "",
-                "dataKey": "ygcnb9bdcmb8aeiw",
-                "dataIv": "ygcnb9bdcmb8aeiw",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "方舟",
             "name": "🛶方舟┃动漫┃蓝光",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://www.cyfz.vip",
                 "site": "",
@@ -1227,7 +1194,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://new.app.bytegooty.com",
                 "site": "",
@@ -1251,7 +1218,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://app.omofun1.top",
                 "dataKey": "66dc309cbeeca454",
@@ -1266,7 +1233,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "",
                 "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
@@ -1282,7 +1249,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://www.gugu3.com",
                 "dataKey": "nKfZ8KX6JTNWRzTD",
@@ -1297,7 +1264,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://get.mymifun.com",
                 "site": "",
@@ -1313,7 +1280,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "ext": {
                 "url": "https://jjjj.nilinili.org",
                 "dataKey": "672263e98f232a05",
@@ -1327,7 +1294,7 @@
             "name": "🌟星芽┃短剧┃热推",
             "type": 3,
             "api": "csp_AppXY",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
@@ -1367,7 +1334,7 @@
             "key": "本地",
             "name": "📁文件┃本地┃资源",
             "type": 3,
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "api": "csp_LocalFile"
         },
         {
@@ -1375,7 +1342,7 @@
             "name": "📁文件┃夸克┃资源",
             "type": 3,
             "api": "csp_PanQuark",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -1390,7 +1357,7 @@
             "name": "📁文件┃阿里┃资源",
             "type": 3,
             "api": "csp_PanAli",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -1405,7 +1372,7 @@
             "name": "📁文件┃优视┃资源",
             "type": 3,
             "api": "csp_PanUc",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -1420,7 +1387,7 @@
             "name": "📁文件┃百度┃资源",
             "type": 3,
             "api": "csp_PanBaiDu",
-            "jar": "./jars/config.jar",
+            "jar": "./jars/玩偶哥哥.jar",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -1433,11 +1400,13 @@
             "key": "push_agent",
             "name": "🛴手机┃推送┃链接",
             "type": 3,
-            "api": "csp_Push",
-            "jar": "./jars/config.jar",
+            "api": "csp_PushGuard",
             "searchable": 0,
-            "filterable": 0,
-            "changeable": 0
+            "quickSearch": 0,
+            "ext": {
+                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
         }
     ],
     "parses": [

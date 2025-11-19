@@ -28,6 +28,14 @@
             "playerType": 2
         },
         {
+            "key": "living",
+            "name": "🐼┃游戏┃直播",
+            "type": 3,
+            "api": "csp_Living",
+            "playerType": 2,
+            "ext": "https://api.muxia.fun"
+        },
+        {
             "key": "csp_FeiMaoUC",
             "name": "⚡┃闪电┃优汐",
             "type": 3,
@@ -352,17 +360,6 @@
             "playerType": 2
         },
         {
-            "key": "偷乐短剧",
-            "name": "☺️┃偷乐┃短剧",
-            "type": 3,
-            "api": "./api/TLDJ.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "csp_SP360",
             "name": "📺┃360┃官源",
             "type": 3,
@@ -390,27 +387,6 @@
             "playerType": "2",
             "api": "csp_Dm84",
             "ext": "https://dm84.net"
-        },
-        {
-            "key": "56动漫",
-            "name": "5️⃣┃56┃动漫",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/56DM.js"
-        },
-        {
-            "key": "NT动漫",
-            "name": "🧬┃NT┃动漫",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/NTDM.js"
-        },
-        {
-            "key": "Anime1",
-            "name": "🌏┃️Anime┃动漫",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/Anime1.js"
         },
         {
             "key": "csp_FourK",
@@ -464,10 +440,10 @@
             }
         },
         {
-            "key": "娱乐",
-            "name": "🎮┃游戏┃娱乐",
+            "key": "喜马拉雅",
+            "name": "🎮┃喜马┃听书",
             "type": 3,
-            "api": "./api/LIVES.py",
+            "api": "./api/喜马拉雅.py",
             "style": {
                 "type": "rect",
                 "ratio": 1.333
@@ -651,11 +627,32 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "冰茶",
             "type": 0,
-            "url": "./lives/live.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "./lives/冰茶.txt",
+            "ua": "bingcha/1.1 (mianfeifenxiang)"
         }
+    ],
+    "headers": [
+        {
+            "host": "hlsztemgsplive.miguvideo.com",
+            "header": {
+                "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+            }
+        }
+    ],
+    "proxy": [
+        "raw.githubusercontent.com"
+    ],
+    "hosts": [
+        "hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+        "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+        "cdn9.163189.xyz=gcore.jsdelivr.net",
+        "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+        "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv"
     ],
     "rules": [
         {

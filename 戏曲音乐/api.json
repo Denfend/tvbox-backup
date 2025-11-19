@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "本地包更新",
-            "name": "💞本地包｜1011",
+            "name": "💞本地包｜1116",
             "type": 3,
             "api": "csp_Market",
             "jar": "./jars/gx.jar",
@@ -95,16 +95,6 @@
             "ext": "./json/Bili.json"
         },
         {
-            "key": "哔哩直播",
-            "name": "🅱️哔哩直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/blzb.js"
-        },
-        {
             "key": "csp_Bili短剧",
             "name": "🅱️哔哩短剧",
             "type": 3,
@@ -123,37 +113,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/影视解说.json"
-        },
-        {
-            "key": "js_310直播",
-            "name": "🥎球赛直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "playerType": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./js/310.js"
-        },
-        {
-            "key": "虎牙直播",
-            "name": "🐯虎牙直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/huyazhibo.js"
-        },
-        {
-            "key": "斗鱼直播",
-            "name": "🐟斗鱼直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/douyu.js"
         }
     ],
     "parses": [
