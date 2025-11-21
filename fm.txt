@@ -30,11 +30,15 @@
 
 { "url": "file://？？？/欧歌/api.json", "name": "欧歌" },
 
+{ "url": "file://？？？/七星影视/api.json", "name": "七星影视" },
+
 { "url": "file://？？？/巧技/api.json", "name": "巧技" },
 
 { "url": "file://？？？/骚零/api.json", "name": "骚零" },
 
 { "url": "file://？？？/少儿频道/api.json", "name": "少儿频道" },
+
+{ "url": "file://？？？/拾光/api.json", "name": "拾光" },
 
 { "url": "file://？？？/天天开心/api.json", "name": "天天开心" },
 

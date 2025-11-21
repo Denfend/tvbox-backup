@@ -30,11 +30,15 @@
 
 { "url": "clan://localhost/？？？/欧歌/api.json", "name": "欧歌" },
 
+{ "url": "clan://localhost/？？？/七星影视/api.json", "name": "七星影视" },
+
 { "url": "clan://localhost/？？？/巧技/api.json", "name": "巧技" },
 
 { "url": "clan://localhost/？？？/骚零/api.json", "name": "骚零" },
 
 { "url": "clan://localhost/？？？/少儿频道/api.json", "name": "少儿频道" },
+
+{ "url": "clan://localhost/？？？/拾光/api.json", "name": "拾光" },
 
 { "url": "clan://localhost/？？？/天天开心/api.json", "name": "天天开心" },
 
