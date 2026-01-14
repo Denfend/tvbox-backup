@@ -13,17 +13,17 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "./txt/1767300502404G_ouRK.txt"
         },
         {
             "key": "Doubana",
-            "name": "🐮【更新日期:20251116】🐮",
+            "name": "🐮【更新日期:20260104】🐮",
             "type": 3,
             "api": "csp_DoubanGuard",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "./txt/1767300502404G_ouRK.txt"
         },
         {
             "key": "Doubana",
@@ -33,7 +33,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "./txt/1767300502404G_ouRK.txt"
         },
         {
             "key": "Wexconfig",
@@ -136,17 +136,6 @@
             "changeable": 1
         },
         {
-            "key": "趣盘",
-            "name": "💓‍趣盘┃4K💓‍",
-            "type": 3,
-            "api": "csp_WexbdqupanGuard",
-            "searchable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "盘他",
             "name": "💓‍盘他┃4K💓‍",
             "type": 3,
@@ -175,14 +164,6 @@
             "name": "💥韩剧┃秒播💥",
             "type": 3,
             "api": "csp_WexhanxiaoquanGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexrenrenyingshi",
-            "name": "💥人人┃秒播💥",
-            "type": 3,
-            "api": "csp_WexrenrenyingshiGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -219,34 +200,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexshandian",
-            "name": "🌺闪电┃秒播🌺",
-            "type": 3,
-            "api": "csp_WexshandianGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexbaozitv",
-            "name": "🎇包子┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexbaozitvGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Nmys",
             "name": "🎇伯伯┃秒播🎇",
             "type": 3,
             "api": "csp_WexNmysGuard",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexBDys",
-            "name": "🎇滴滴┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexBDysGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -319,6 +276,14 @@
             "name": "🍉短剧┃速播🍉",
             "type": 3,
             "api": "csp_WexduanjusuipianGuard",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexduanjuvmp",
+            "name": "🍉短剧┃瞬播🍉",
+            "type": 3,
+            "api": "csp_WexduanjuvmpGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -427,14 +392,6 @@
             }
         },
         {
-            "key": "Pandalivetv",
-            "name": "😍韩国┃直播😍",
-            "type": 3,
-            "api": "csp_WexPandalivetvGuard",
-            "searchable": 0,
-            "changeable": 0
-        },
-        {
             "key": "Iktv",
             "name": "🎤KTV┃音乐🎤",
             "type": 3,
@@ -454,7 +411,7 @@
             "key": "WexDm84",
             "name": "🤡巴士┃动漫🤡",
             "type": 3,
-            "api": "csp_WexDm84Guard",
+            "api": "csp_WexYingGuard",
             "searchable": 1,
             "changeable": 1
         },
@@ -539,7 +496,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557872081/bili001.txt"
+                "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
             }
         },
         {
@@ -555,7 +512,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557798499/bilisong.txt"
+                "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
             }
         },
         {
@@ -621,14 +578,6 @@
             "ext": {
                 "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
             }
-        },
-        {
-            "key": "Wexqingfengdj",
-            "name": "🎼舞曲┃摇头🎼",
-            "type": 3,
-            "api": "csp_WexqingfengdjGuard",
-            "searchable": 1,
-            "changeable": 0
         },
         {
             "key": "WexLunhuiDJ",
@@ -697,6 +646,14 @@
             "name": "🎠海音┃综合🎠",
             "type": 3,
             "api": "csp_WexHaiYinsoGuard",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "Wex97pansoGuard",
+            "name": "🎠九七┃综合🎠",
+            "type": 3,
+            "api": "csp_Wex97pansoGuard",
             "searchable": 1,
             "changeable": 0
         },

@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
-    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
+    "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/ACB34B_773_photo_2022-09-14_00-00-57_20251204145106336newMediaImage.jpg",
     "sites": [
         {
             "key": "豆瓣",
@@ -284,20 +284,6 @@
             "timeout": 10
         },
         {
-            "key": "浪酷版",
-            "name": "👓浪酷┃秒播",
-            "type": 3,
-            "api": "csp_TianTianGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "site": 2
-            },
-            "timeout": 10
-        },
-        {
             "key": "小苹果",
             "name": "🍎苹果┃直连",
             "type": 3,
@@ -331,10 +317,21 @@
             "timeout": 10
         },
         {
-            "key": "咖啡",
-            "name": "🍫咖啡┃App",
+            "key": "鲸鱼",
+            "name": "🐳鲸鱼┃App",
             "type": 3,
-            "api": "csp_KaFeiGuard",
+            "api": "csp_JingYuGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "小猪",
+            "name": "🐖小猪┃App",
+            "type": 3,
+            "api": "csp_XiaoZhuGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -361,6 +358,62 @@
             "quickSearch": 1,
             "changeable": 0,
             "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "吉米",
+            "name": "🍙吉米┃App",
+            "type": 3,
+            "api": "csp_AppFoxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "siteUrl": "http://45.207.215.137:8006"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "恋鱼",
+            "name": "🐟恋鱼┃App",
+            "type": 3,
+            "api": "csp_AppFoxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "siteFrom": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "麒麟",
+            "name": "🐓麒麟┃App",
+            "type": 3,
+            "api": "csp_AppFoxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "siteUrl": "https://www.70yyw.cc"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "木瓜",
+            "name": "🥑木瓜┃App",
+            "type": 3,
+            "api": "csp_AppFoxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "siteUrl": "http://www.yezitv.top"
+            },
             "timeout": 10
         },
         {
@@ -546,6 +599,17 @@
             "timeout": 10
         },
         {
+            "key": "盒马短剧",
+            "name": "🦓盒马┃短剧",
+            "type": 3,
+            "api": "csp_HeMaGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
             "key": "星芽短剧",
             "name": "💖星芽┃短剧",
             "type": 3,
@@ -677,6 +741,16 @@
             "timeout": 10
         },
         {
+            "key": "六月听书",
+            "name": "🎤六月┃听书",
+            "type": 3,
+            "api": "csp_WeiTingGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "timeout": 10
+        },
+        {
             "key": "bilimd",
             "name": "🅱哔哩┃影视",
             "type": 3,
@@ -705,7 +779,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/YJhVp-4r.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
             },
             "timeout": 20
         },
@@ -723,7 +797,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/DLYuzBTJ.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/28CD73E_773_biliych_20251204150624308newMediaFile.bmp"
             },
             "timeout": 20
         },
@@ -741,7 +815,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/1JTNmUos.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/C7FB4B_773_bilixs_20251204150416832newMediaFile.bmp"
             },
             "timeout": 20
         },
@@ -759,7 +833,7 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/iO5IVxTF.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
             },
             "timeout": 20
         },
@@ -776,7 +850,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/dXwud0cD.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/32EF375_773_bilisejy_20251204150311837newMediaFile.bmp"
             }
         },
         {
@@ -792,7 +866,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/KQ75Lxp5.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3753221_773_bilixxkt_20251204150347660newMediaFile.bmp"
             }
         },
         {
@@ -808,7 +882,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/43ZKwmf_.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3ED04A6_773_biliczkt_20251204150157889newMediaFile.bmp"
             }
         },
         {
@@ -824,7 +898,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/mf6984kQ.bmp"
+                "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/531DD35_773_biligzkt_20251204150243460newMediaFile.bmp"
             }
         },
         {
@@ -922,6 +996,16 @@
             "name": "🎾找盘┃搜索",
             "type": 3,
             "api": "csp_V2PanGuard",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "timeout": 25
+        },
+        {
+            "key": "djps",
+            "name": "🔍短剧┃搜索",
+            "type": 3,
+            "api": "csp_DjpsGuard",
             "searchable": 1,
             "filterable": 1,
             "changeable": 0,
@@ -1054,15 +1138,15 @@
     ],
     "lives": [
         {
+            "name": "MIGU",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Fbc.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dbingcha1130%26json%3Dtrue",
+            "ua": "bingcha/1.1 (mianfeifenxiang)"
+        },
+        {
             "name": "AI直播",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
-        },
-        {
-            "name": "MIGU",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Ffy.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dbingchawusifengxian%26json%3Dtrue",
-            "ua": "bingcha/1.1 (mianfeifenxiang)"
         },
         {
             "name": "电视Live",
@@ -1073,7 +1157,7 @@
         {
             "name": "江苏移动",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1744201662209/jjssyydd.txt"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/529EAA1_773_jsyd_20251205182514164newMediaFile.bmp"
         },
         {
             "name": "一起看",
@@ -1283,6 +1367,8 @@
         ".*boku.*",
         ".*nivod.*",
         ".*ulivetv.*",
+        "188766.xyz",
+        "4gtv.tv",
         "iill.top"
     ],
     "rules": [
