@@ -8,6 +8,8 @@
 
 { "url": "clan://localhost/？？？/PG/api.json", "name": "PG" },
 
+{ "url": "clan://localhost/？？？/VOX/api.json", "name": "VOX" },
+
 { "url": "clan://localhost/？？？/白嫖/api.json", "name": "白嫖" },
 
 { "url": "clan://localhost/？？？/菜妮丝/api.json", "name": "菜妮丝" },

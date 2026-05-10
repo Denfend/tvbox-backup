@@ -8,6 +8,8 @@
 
 { "url": "file://？？？/PG/api.json", "name": "PG" },
 
+{ "url": "file://？？？/VOX/api.json", "name": "VOX" },
+
 { "url": "file://？？？/白嫖/api.json", "name": "白嫖" },
 
 { "url": "file://？？？/菜妮丝/api.json", "name": "菜妮丝" },
